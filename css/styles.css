@@ -35,7 +35,7 @@
  body {
     width: 1600px;
      color: var(--primary-text-color);
-     background-color: #FFFFFF;
+     background-color: rgba(255, 255, 255, 1);
 
      font-family: Roboto, sans-serif;
      margin: 0;
@@ -61,12 +61,13 @@
      padding-right: 15px;
      margin-left: auto;
      margin-right: auto;
-     outline: 2px solid tomato;
+     /* outline: 2px solid tomato; */
  }
 
  ul {
      list-style: none;
  }
+
  img{
     display: block;
  }
@@ -226,12 +227,30 @@ nav{
     }
 
     .hero-title{
+        padding-top: 200px;
+        padding-bottom: 200px;
         width: 1600px;
         background-color: #2F303A;
         text-align: center;
     }
 
  /* Наши особенности */
+ 
+    /* .visually-hidden {
+         position: absolute;
+         width: 1px;
+         height: 1px;
+         margin: -1px;
+         border: 0;
+         padding: 0;
+    
+         white-space: nowrap;
+         clip-path: inset(100%);
+         clip: rect(0 0 0 0);
+         overflow: hidden;
+     }
+         */
+ 
 
  .feature-list{
     display: flex;
@@ -358,7 +377,7 @@ nav{
  .filter-button{
     margin-top: 94px;
     margin-bottom: 34px;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
  }
  .list-portfolio{
     display: flex;
@@ -402,8 +421,6 @@ nav{
 
         margin-bottom: 50px;
  }
-
-
 
 
  /* Подвал */
